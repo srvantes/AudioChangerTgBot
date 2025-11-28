@@ -12,7 +12,7 @@ from config import Config, get_config
 
 config: Config = get_config()
 BOT_TOKEN: str = config.tg_bot.token
-MISTRAL_KEY: str = config.mistral.key
+
 
 TEMP_DIR = Path("temp_audio")
 TEMP_DIR.mkdir(exist_ok=True)
